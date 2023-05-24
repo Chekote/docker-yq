@@ -5,6 +5,8 @@ Docker image for the [yq](https://github.com/mikefarah/yq) command
 The image is hosted on Docker Hub at https://hub.docker.com/r/chekote/yq.
 
 ## Usage:
+This image is built on the [Chekote/alpine](https://hub.docker.com/r/chekote/alpine) image. Please see that [project's README](https://github.com/Chekote/docker-alpine#readme) for more information.
+
 See `bin/yq` for a simple `docker run` command that will run yq with the provided arguments.
 
 For seamless usage of the command as if it is installed as a native app, create the same `bin/yq` script in your path and make it executable.
